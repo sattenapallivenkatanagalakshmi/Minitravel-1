@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0cap;
+  
+   background-size: cover;
+   text-align: center;
+}
+body{
+    height: 1500%;
+    width: 1590px;
+    background-image:url(1.jpg);
+    font-size:large;
+    font-weight: bold;
+    font-weight: 500;
+    display: absolute;
+    border-radius: 30px;
+
+}
+ a{
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    background-color: aqua;
+   
+}
+ a:hover{
+    background-color: blueviolet;
+
+    border-radius: 30px;
+ }
+form{
+    margin: 80px 10px;
+    padding: auto;
+    text-align: center;
+    font-weight: bold;
+background-color:transparent;
+height: 250%;
+color: rgb(236, 12, 195);
+width: 90%;
+}
+form:hover{
+    border: black;
+  
+    
+}

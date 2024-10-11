@@ -1,0 +1,120 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    font-size: 2em;
+    color: #ed0996;
+    user-select: none;
+
+}
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color:#e81663;
+    left: 0;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 130px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -6px;
+    transform: scaleX(0);
+    height:3 px;
+    background: #fff;
+    border-radius: 5px;
+}
+.navigation a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.navigation .btnlogin-popup a{
+    width: 180px;
+    height: 90px;
+    background:rgb(212, 246, 133);
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color:#0b0a0a;
+    font-weight: 500;
+    margin-left: 0px;
+    transition:-5s;
+}
+.navigation .btnlogin-popup a:hover{
+    background: #3ee9d0;
+    color: #000;
+}
+form{
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    position: absolute;
+    width: 480px;
+    height: 650px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    top: 150px;
+    right:520px;
+   
+    border: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color:black;
+    font-weight: bold;
+}
+body{
+        height: 1500%;
+        width: 1500px;
+        background-image:url(10.jpeg);
+        background-size: cover;
+        font-size:large;
+        font-weight: bold;
+        font-weight: 500;
+        display: absolute;
+        border-radius: 30px;
+    
+    }
+h1{
+    text-align:center;
+    font-size: x-large;
+    height: 40px;
+    color:rgb(228, 223, 233);
+    box-sizing: content-box;
+    display: block;
+}
+  ul{
+    padding: 15px 320px;
+    background-color: yellow;
+    width: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size:large;
+    font-family: sans-serif;
+    width: max-content;
+    display: block;
+    font-weight:bold;
+    font-size: large;
+    margin-left: 20px;
+}
+
